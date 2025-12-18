@@ -1,6 +1,8 @@
 # Ayrin-Digital
 This repo contains the quiz app made for technical assessment for internship.
 
+Here is the link: **https://Titiksha2012.github.io/Ayrin-Digital/**
+
 <img width="1919" height="1001" alt="image" src="https://github.com/user-attachments/assets/009158a0-ca44-46de-a870-af21993c0a8b" />
 
 <img width="1919" height="1003" alt="image" src="https://github.com/user-attachments/assets/f4525d3f-291d-409b-ad80-7759e6307759" />
