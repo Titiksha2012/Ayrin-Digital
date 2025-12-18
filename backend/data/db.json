@@ -1,0 +1,226 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_js_basics",
+      "title": "JavaScript Basics",
+      "description": "Test your JS knowledge",
+      "category": "JavaScript",
+      "settings": {
+        "shuffleQuestions": true,
+        "timer": {
+          "mode": "total",
+          "totalSeconds": 60
+        }
+      },
+      "createdAt": "2025-12-17T13:39:31.549Z",
+      "questions": [
+        {
+          "id": "q_js_1",
+          "question": "What is the typeof null?",
+          "options": [
+            "null",
+            "undefined",
+            "object",
+            "number"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "q_js_2",
+          "question": "Which is not a primitive type?",
+          "options": [
+            "string",
+            "boolean",
+            "array",
+            "symbol"
+          ],
+          "correctIndex": 2
+        },
+        {
+          "id": "q_js_3",
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": [
+            "var",
+            "let",
+            "function",
+            "this"
+          ],
+          "correctIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "quiz_react_fundamentals",
+      "title": "React Fundamentals",
+      "description": "Components, hooks, and more",
+      "category": "React",
+      "settings": {
+        "shuffleQuestions": true,
+        "timer": {
+          "mode": "perQuestion",
+          "perQuestionSeconds": 20
+        }
+      },
+      "createdAt": "2025-12-17T13:39:31.550Z",
+      "questions": [
+        {
+          "id": "q_r_1",
+          "question": "Which hook is used for state in a function component?",
+          "options": [
+            "useMemo",
+            "useState",
+            "useRef",
+            "useCallback"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "q_r_2",
+          "question": "Keys in lists help React with…",
+          "options": [
+            "Animations",
+            "Reconciliation",
+            "Styling",
+            "Routing"
+          ],
+          "correctIndex": 1
+        },
+        {
+          "id": "q_r_3",
+          "question": "Which prop renders nested content?",
+          "options": [
+            "children",
+            "content",
+            "slot",
+            "nested"
+          ],
+          "correctIndex": 0
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "result_3x7wg8m3bh75",
+      "quizId": "quiz_js_basics",
+      "playerName": "Joe",
+      "score": 1,
+      "totalQuestions": 3,
+      "percentage": 33,
+      "answers": [
+        {
+          "questionId": "q_js_2",
+          "selectedIndex": 1
+        },
+        {
+          "questionId": "q_js_1",
+          "selectedIndex": 2
+        },
+        {
+          "questionId": "q_js_3",
+          "selectedIndex": 0
+        }
+      ],
+      "meta": {
+        "timerMode": "total",
+        "totalSeconds": 60,
+        "perQuestionSeconds": null,
+        "attemptSeed": 70342809,
+        "startedAt": 1766064458834,
+        "finishedAt": 1766064489995,
+        "timeTakenSeconds": 31,
+        "timerExpired": false
+      },
+      "completedAt": "2025-12-18T13:28:10.031Z"
+    },
+    {
+      "id": "result_iq4lzxodbgrb",
+      "quizId": "quiz_js_basics",
+      "playerName": "titiksha",
+      "score": 1,
+      "totalQuestions": 3,
+      "percentage": 33,
+      "answers": [
+        {
+          "questionId": "q_js_2",
+          "selectedIndex": 1
+        },
+        {
+          "questionId": "q_js_1",
+          "selectedIndex": 2
+        },
+        {
+          "questionId": "q_js_3",
+          "selectedIndex": 0
+        }
+      ],
+      "meta": {
+        "timerMode": "total",
+        "totalSeconds": 60,
+        "perQuestionSeconds": null,
+        "attemptSeed": 1733898208,
+        "startedAt": 1766063738839,
+        "finishedAt": 1766063749963,
+        "timeTakenSeconds": 11,
+        "timerExpired": false
+      },
+      "completedAt": "2025-12-18T13:15:50.342Z"
+    },
+    {
+      "id": "result_hrgdjndrbgom",
+      "quizId": "quiz_js_basics",
+      "playerName": "tiya",
+      "score": 1,
+      "totalQuestions": 3,
+      "percentage": 33,
+      "answers": [
+        {
+          "questionId": "q_js_1",
+          "selectedIndex": 1
+        },
+        {
+          "questionId": "q_js_2",
+          "selectedIndex": 2
+        },
+        {
+          "questionId": "q_js_3",
+          "selectedIndex": 2
+        }
+      ],
+      "meta": {
+        "timerMode": "total",
+        "totalSeconds": 60,
+        "perQuestionSeconds": null,
+        "attemptSeed": 329868410,
+        "startedAt": 1766063610390,
+        "finishedAt": 1766063625522,
+        "timeTakenSeconds": 15,
+        "timerExpired": false
+      },
+      "completedAt": "2025-12-18T13:13:45.667Z"
+    },
+    {
+      "id": "result_blhveq32a2cf",
+      "quizId": "quiz_react_fundamentals",
+      "playerName": "joe",
+      "score": 0,
+      "totalQuestions": 3,
+      "percentage": 0,
+      "answers": [
+        {
+          "questionId": "q_r_3",
+          "selectedIndex": 2
+        },
+        {
+          "questionId": "q_r_2",
+          "selectedIndex": 2
+        },
+        {
+          "questionId": "q_r_1",
+          "selectedIndex": 3
+        }
+      ],
+      "completedAt": "2025-12-17T13:44:35.234Z"
+    }
+  ]
+}
