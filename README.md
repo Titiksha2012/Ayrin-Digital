@@ -2,14 +2,9 @@
 
 A full-stack quiz application built for technical assessment. Users can take quizzes, view results, and see leaderboards with persistent data storage.
 
-## 🌐 Live Demo
-
-- **Frontend:** [View on GitHub Pages](https://Titiksha2012.github.io/Ayrin-Digital/)
-- **Backend API:** Hosted on Railway
+You can view the Quiz App here: **https://Titiksha2012.github.io/Ayrin-Digital/**
 
 ## 📸 Screenshots
-
-Here is the link: **https://Titiksha2012.github.io/Ayrin-Digital/**
 
 <img width="1919" height="1001" alt="image" src="https://github.com/user-attachments/assets/009158a0-ca44-46de-a870-af21993c0a8b" />
 
