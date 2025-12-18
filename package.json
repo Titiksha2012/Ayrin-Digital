@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "concurrently -n backend,frontend -c blue,green \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
     "build": "npm run build --prefix frontend",
+    "start": "cd backend && npm start",
     "backend": "npm run dev --prefix backend",
     "frontend": "npm run dev --prefix frontend"
   },
