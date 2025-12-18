@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "concurrently -n backend,frontend -c blue,green \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
-    "build": "npm run build --prefix frontend",
-    "start": "cd backend && npm start",
+    "build:frontend": "npm run build --prefix frontend",
+    "start": "cd backend && npm install --omit=dev && npm start",
     "backend": "npm run dev --prefix backend",
     "frontend": "npm run dev --prefix frontend"
   },
